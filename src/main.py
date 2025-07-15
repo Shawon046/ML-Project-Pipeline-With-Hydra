@@ -13,6 +13,8 @@ from dataset.load_data import get_dataloader
 from model.traditional_models import *
 from model.accuracy_metrics import *
 from dataset.load_nsl_data import *
+
+import pandas as pd
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_columns', None)  
 
